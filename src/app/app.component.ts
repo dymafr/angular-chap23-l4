@@ -20,7 +20,8 @@ export class AppComponent {
       input: ["", Validators.required],
       majeur: [],
       gender: [],
-      toggle: []
+      toggle: [],
+      select: []
     });
   }
 }
