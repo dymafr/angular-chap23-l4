@@ -2,7 +2,7 @@
 	<div>
 		<mat-form-field floatLabel="always">
 			<mat-label>Name</mat-label>
-			<input matInput type="text"  formControlName="input">
+			<input matInput type="text" formControlName="input" />
 			<mat-icon matSuffix>perm_identity</mat-icon>
 			<mat-hint align="end">{{form.get('input').value?.length}}/10</mat-hint>
 			<mat-error *ngIf="form.get('input').invalid">Le champ est obligatoire</mat-error>
@@ -19,6 +19,15 @@
 	</div>
 	<div>
 		<mat-slide-toggle formControlName="toggle">Majeur</mat-slide-toggle>
+	</div>
+	<div>
+		<mat-form-field>
+			<mat-select>
+				<mat-option value="pain">Pain</mat-option>
+				<mat-option value="pate">Pain</mat-option>
+				<mat-option value="pizza">Pizza</mat-option>
+			</mat-select>
+		</mat-form-field>
 	</div>
 	<pre>{{form.value | json}}</pre>
 </form>
