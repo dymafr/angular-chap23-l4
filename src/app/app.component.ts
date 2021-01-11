@@ -23,7 +23,9 @@ export class AppComponent {
       toggle: [],
       select: [],
       slider: [],
-      date: []
+      date: [],
+      start: [],
+      end: []
     });
   }
 }
