@@ -22,7 +22,8 @@ export class AppComponent {
       gender: [],
       toggle: [],
       select: [],
-      slider: []
+      slider: [],
+      date: []
     });
   }
 }
