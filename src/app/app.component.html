@@ -22,12 +22,15 @@
 	</div>
 	<div>
 		<mat-form-field>
-			<mat-select formControlName="select">
+			<mat-select placeholder='Nourriture' formControlName="select">
 				<mat-option value="pain">Pain</mat-option>
 				<mat-option value="pate">Pain</mat-option>
 				<mat-option value="pizza">Pizza</mat-option>
 			</mat-select>
 		</mat-form-field>
+	</div>
+	<div>
+		<mat-slider formControlName="slider" min="0" max="10"></mat-slider>
 	</div>
 	<pre>{{form.value | json}}</pre>
 </form>

@@ -7,6 +7,7 @@ import { MaterialModule } from "./shared/modules/material.module";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { MatIconModule } from "@angular/material/icon";
 import { MatSelectModule } from "@angular/material/select";
+import { MatSliderModule } from "@angular/material/slider";
 
 @NgModule({
   imports: [
@@ -16,7 +17,8 @@ import { MatSelectModule } from "@angular/material/select";
     BrowserAnimationsModule,
     MaterialModule,
     MatIconModule,
-    MatSelectModule
+    MatSelectModule,
+    MatSliderModule
   ],
   declarations: [AppComponent],
   bootstrap: [AppComponent]

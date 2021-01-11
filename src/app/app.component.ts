@@ -21,7 +21,8 @@ export class AppComponent {
       majeur: [],
       gender: [],
       toggle: [],
-      select: []
+      select: [],
+      slider: []
     });
   }
 }
